@@ -1,0 +1,44 @@
+####################################################
+###################### STEP 1 ######################
+####################################################
+
+R-URL: https://api.qiwi.com/partner/bill/v1/bills/WhiteApfel-PyQiwiP2P-87484840-333
+URL: https://api.qiwi.com/partner/bill/v1/bills/WhiteApfel-PyQiwiP2P-87484840-333
+Code: 401 Unauthorized
+Method: PUT
+
+##################### REQUEST ######################
+Headers:
+
+Host:           api.qiwi.com
+Accept-Encoding: gzip, deflate
+Connection:     keep-alive
+User-Agent:     python-httpx/0.23.3
+Accept:         application/json
+Content-Type:   application/json
+Authorization:  Bearer eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6IjFyc3QweS0wMCIsInVzZXJfaWQiOiI5OTY3MDU0NDkxMTEiLCJzZWNyZXQiOiIzMDMyNGQwMGEyMDgwOTA5NDlhMTk2OTIxNDJkNThlMGVkMmM5MDZhMGQ1MTVkYzIzOTliMTVhNGFiN2Y5OGE0In19=
+Content-Length: 228
+
+########### CONTENT ############
+{
+    "amount": {
+        "currency": "RUB",
+        "value": "100.00"
+    },
+    "comment": "Online Donate | \u043e\u0442 5978300530 \u043d\u0430 100 \u0440\u0443\u0431.",
+    "customFields": {},
+    "customer": {},
+    "expirationDateTime": "2023-01-16T16:29:08+03:00"
+}
+######### END CONTENT ##########
+
+##################### RESPONSE #####################
+
+Headers:
+
+Server:         nginx
+Date:           Mon, 16 Jan 2023 13:14:08 GMT
+Content-Length: 0
+Connection:     keep-alive
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
